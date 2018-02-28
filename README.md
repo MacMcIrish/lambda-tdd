@@ -71,7 +71,7 @@ The example above allows for use of a `--filter=REGEX` parameter to only execute
       "match": "^.*?\"http://ip-api\\.(com|ca):80\".*?$"
     }
   }],
-  "body": [{
+  "response": [{
     "to.contain": "\"United States\""
   }],
   "timestamp": 1511072994,
